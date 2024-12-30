@@ -64,7 +64,7 @@ interface Programs_ES {
     question: string;
     answer: string;
   }[];
-  "acf.associated_initiative": boolean | Initative;
+  "acf.associated_initiative": boolean | Initative; // Initative need to be defined
   
   "acf.tags"?: Term[];
 

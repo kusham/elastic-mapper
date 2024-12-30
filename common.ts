@@ -27,51 +27,24 @@ interface _links {
 }
 
 interface Attachment {
-  ID: number;
   id: number;
   title: string;
   filename: string;
   filesize: number;
   url: string;
-  link: string;
   alt: string;
-  author: string;
-  description: string;
   caption: string;
-  name: string;
-  status: string;
-  uploaded_to: number;
-  date: string;
-  modified: string;
-  menu_order: number;
-  mime_type: string;
-  type: string;
-  subtype: string;
   icon: string;
 }
 
 interface Image {
-  ID: number;
   id: number;
   title: string;
   filename: string;
   filesize: number;
   url: string;
-  link: string;
   alt: string;
-  author: string;
-  description: string;
   caption: string;
-  name: string;
-  status: string;
-  uploaded_to: number;
-  date: string;
-  modified: string;
-  menu_order: number;
-  mime_type: string;
-  type: string;
-  subtype: string;
-  icon: string;
   width: number;
   height: number;
   sizes: {
@@ -100,11 +73,5 @@ interface Term {
   term_id: number;
   name: string;
   slug: string;
-  term_group: number;
-  term_taxonomy_id: number;
   taxonomy: string;
-  description: string;
-  parent: number;
-  count: number;
-  filter: string;
 }
