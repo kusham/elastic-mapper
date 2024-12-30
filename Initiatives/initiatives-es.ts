@@ -4,6 +4,7 @@ interface Initiative_ES {
   modified: string;
   slug: string;
   "title.rendered": string;
+  "content.rendered": string;
 
   "acf.banner_image": Image;
   "acf.program_type": Term[];

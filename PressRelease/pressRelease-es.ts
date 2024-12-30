@@ -5,6 +5,7 @@ interface PressRelease {
   slug: string;
 
   "title.rendered": string;
+  "content.rendered": string;
 
   "acf.resource_description": string;
   "acf.resource_category": Term[];

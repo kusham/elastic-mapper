@@ -5,6 +5,7 @@ interface Events_ES {
   slug: string;
 
   "title.rendered": string;
+  "content.rendered": string;
 
   "acf.banner_image": Image;
   "acf.event_type": Term;

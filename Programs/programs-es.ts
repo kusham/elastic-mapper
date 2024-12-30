@@ -6,6 +6,7 @@ interface Programs_ES {
   slug: string;
 
   "title.rendered": string;
+  "content.rendered": string;
 
   "acf.banner_image": Image;
   "acf.program_type": string;
