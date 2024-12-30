@@ -5,6 +5,7 @@ interface Sponsors_ES {
   slug: string;
 
   "title.rendered": string;
+  "content.rendered": string;
 
   "acf.url": string;
   "acf.logo": Image | boolean;

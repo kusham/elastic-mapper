@@ -5,6 +5,7 @@ interface Speakers_ES {
   slug: string;
 
   "title.rendered": string;
+  "content.rendered": string;
   "acf.profile_picture": Image | boolean;
   "acf.profession": string;
 }

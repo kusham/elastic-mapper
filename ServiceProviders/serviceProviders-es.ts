@@ -5,4 +5,5 @@ interface ServiceProviders_ES {
   slug: string;
 
   "title.rendered": string;
+  "content.rendered": string;
 }

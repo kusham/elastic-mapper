@@ -6,6 +6,7 @@ interface Programs_ES {
   slug: string;
 
   "title.rendered": string;
+  "content.rendered": string;
 
   "acf.banner_image": Image;
   "acf.program_type": string;
@@ -64,12 +65,18 @@ interface Programs_ES {
     question: string;
     answer: string;
   }[];
-  "acf.associated_initiative": boolean | Initative; // Initative need to be defined
+
+  "acf.associated_initiative": boolean | {
+    ID: number;
+    post_title: string;
+    post_content: string;
+  }[]; 
   
   "acf.tags"?: Term[];
 
   "acf.other_programs": Programs_ES[] | boolean;
 }
+
 
 
 // recap
